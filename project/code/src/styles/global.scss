@@ -1,0 +1,69 @@
+body {
+    font-family: 'Oreo Sans';
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1529034502960-57f42a966080?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80');
+    background-size: cover;
+    color: #ffff;
+}
+
+h1{
+    color: #ffff;
+    font-size: 40px;
+}
+
+#app {
+    font-family: 'Oreo Sans ';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #ffff;
+}
+
+#logo{
+    horiz-align: left;
+}
+
+.logo {
+    display: inline-block;
+    width: 20%;
+    max-width: 13vw;
+    padding-right: 5vw;
+    padding-top: 0.5vw;
+    margin-left: 5vw;
+    float: left;
+}
+
+#nav {
+    padding: 30px;
+    margin: 0;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+#nav a:hover {
+    color: cadetblue;
+}
+
+#nav a.router-link-exact-active {
+    color: darkslategray;
+}
+
+.navBar {
+    background-color: #57BCC9;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+p {
+    color: darkslategray;
+}
